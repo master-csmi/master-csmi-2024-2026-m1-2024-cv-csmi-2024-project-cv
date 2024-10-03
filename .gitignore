@@ -1,6 +1,5 @@
 *.out
 *.gz
-*.log
 *.cls
 *.fls
 *.aux
