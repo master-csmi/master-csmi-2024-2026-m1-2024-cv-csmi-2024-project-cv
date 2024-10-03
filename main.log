@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.22)  3 OCT 2024 08:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.22)  3 OCT 2024 08:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -790,6 +790,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 30.
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -921,162 +922,68 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 112.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 113.
+<images/logo.png, id=38, 602.25pt x 602.25pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 113.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+<images/allameh.png, id=39, 157.33781pt x 154.32657pt>
+File: images/allameh.png Graphic file (type png)
+<use images/allameh.png>
+Package pdftex.def Info: images/allameh.png  used on input line 114.
+(pdftex.def)             Requested size: 29.0062pt x 28.45274pt.
+<images/agah.jpg, id=41, 262.9825pt x 148.555pt>
+File: images/agah.jpg Graphic file (type jpg)
+<use images/agah.jpg>
+Package pdftex.def Info: images/agah.jpg  used on input line 115.
+(pdftex.def)             Requested size: 50.36847pt x 28.45274pt.
 
-LaTeX Warning: File `images/logo.png' not found on input line 113.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:113: Package pdftex.def Error: File `images/logo.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.113 ... scientific challenges.}{images/logo.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/allameh.png' not found on input line 114.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:114: Package pdftex.def Error: File `images/allameh.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ...oncepts to students.}{images/allameh.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/agah.jpg' not found on input line 115.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:115: Package pdftex.def Error: File `images/agah.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ... a data entry operator.}{images/agah.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
+Overfull \hbox (20.59256pt too wide) in paragraph at lines 112--118
 [][]
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 124.
-
-LaTeX Warning: File `images/datacamp.png' not found on input line 124.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:124: Package pdftex.def Error: File `images/datacamp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ...color{headerblue}}{}{images/datacamp.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/datacamp.png' not found on input line 125.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:125: Package pdftex.def Error: File `images/datacamp.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...color{headerblue}}{}{images/datacamp.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<images/datacamp.png, id=42, 301.125pt x 301.125pt>
+File: images/datacamp.png Graphic file (type png)
+<use images/datacamp.png>
+Package pdftex.def Info: images/datacamp.png  used on input line 124.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+File: images/datacamp.png Graphic file (type png)
+<use images/datacamp.png>
+Package pdftex.def Info: images/datacamp.png  used on input line 125.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \T1/Raleway-TLF/m/sc/9 Diplome $\OMS/cmsy/m/n/9 ^^A$ \T1/Raleway-TLF/m/n/9 Uni-ver-sity of
  []
 
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 127.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
 
-LaTeX Warning: File `images/logo.png' not found on input line 127.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:127: Package pdftex.def Error: File `images/logo.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127  \color{headerblue}}{}{images/logo.png}
-                                              \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (13.24995pt too wide) in paragraph at lines 123--129
+Overfull \hbox (13.24992pt too wide) in paragraph at lines 123--129
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 (Font)              scaled to size 6.0pt on input line 135.
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 147.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+File: images/allameh.png Graphic file (type png)
+<use images/allameh.png>
+Package pdftex.def Info: images/allameh.png  used on input line 149.
+(pdftex.def)             Requested size: 29.0062pt x 28.45274pt.
+<images/w.png, id=43, 225.84375pt x 225.84375pt>
+File: images/w.png Graphic file (type png)
+<use images/w.png>
+Package pdftex.def Info: images/w.png  used on input line 150.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 
-LaTeX Warning: File `images/logo.png' not found on input line 147.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:147: Package pdftex.def Error: File `images/logo.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...ithms, data structures.}{images/logo.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/allameh.png' not found on input line 149.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:149: Package pdftex.def Error: File `images/allameh.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...ematical statistics.}{images/allameh.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/w.png' not found on input line 150.
-
-
-/workspaces/m1-2024-cv-helya1/main.tex:150: Package pdftex.def Error: File `images/w.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 ...igh School \color{cvred}}{}{images/w.png}
-                                                   \\
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (9.06216pt too wide) in paragraph at lines 144--153
+Overfull \hbox (9.61626pt too wide) in paragraph at lines 144--153
 [][]
  []
 
@@ -1084,7 +991,7 @@ Overfull \hbox (9.06216pt too wide) in paragraph at lines 144--153
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./helya.jpg>] (./main.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./helya.jpg> <./images/logo.png (PNG copy)> <./images/Allameh.png> <./images/agah.jpg> <./images/datacamp.png> <./images/w.png>] (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1093,31 +1000,22 @@ L3 programming layer <2024-08-30>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29131 strings out of 473579
- 586658 string characters out of 5728234
- 1013997 words of memory out of 5000000
- 51485 multiletter control sequences out of 15000+600000
- 785796 words of font info for 81 fonts, out of 8000000 for 9000
+ 29019 strings out of 473579
+ 583597 string characters out of 5728234
+ 1014098 words of memory out of 5000000
+ 51370 multiletter control sequences out of 15000+600000
+ 785483 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,12n,135p,467b,1209s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on main.pdf (1 page, 224326 bytes).
+ 131i,13n,135p,467b,1209s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on main.pdf (1 page, 275578 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
