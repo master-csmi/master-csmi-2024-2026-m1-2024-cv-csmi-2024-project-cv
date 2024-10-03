@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727917470.00135 "/workspaces/m1-2024-cv-helya1/main.tex" "main.pdf" "main" 1727917471.28763 0
+["pdflatex"] 1727941398.88327 "/workspaces/m1-2024-cv-helya1/main.tex" "main.pdf" "main" 1727941400.45797 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -221,15 +221,15 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726983456 5498206 6c0f03cb370063b7ddbd563e5f9ce23a ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726983524 3326003 fb85d6f37705a2dcfe9f1784caef4917 ""
   "/usr/local/texlive/2024/texmf.cnf" 1726983450 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "/workspaces/m1-2024-cv-helya1/main.tex" 1727917469.13629 6076 c88ec21e646abbbb124a88470ee8378d ""
+  "/workspaces/m1-2024-cv-helya1/main.tex" 1727941394.17113 6076 c88ec21e646abbbb124a88470ee8378d ""
   "Allameh.png" 1727913799.13099 24422 12ef0df05d2853cb677a9bb87b7bf101 ""
   "agah.jpg" 1727914334.69097 10704 6115bd1867a6d5a43fa3ab778e2de340 ""
   "datacamp.png" 1727914602.31896 14464 9ee169cd67080478df429beb1a8e2bd8 ""
   "helya.jpg" 1727901585.84348 71134 2bf3515af32735130245f6a6418bbea6 ""
   "logo.png" 1727913559.635 32648 223a13eddd358727bcb5b35d6d060ee8 ""
-  "main.aux" 1727917471.15629 205 e0f3f30905e323e3dbd0313132f84219 "pdflatex"
-  "main.out" 1727917470.85229 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1727917469.13629 6076 c88ec21e646abbbb124a88470ee8378d ""
+  "main.aux" 1727941400.24713 205 e0f3f30905e323e3dbd0313132f84219 "pdflatex"
+  "main.out" 1727941399.88713 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1727941394.17113 6076 c88ec21e646abbbb124a88470ee8378d ""
   "simplehipstercv.cls" 1727614841.77736 10757 c85c243d06d400a6ac177620d621773b ""
   "simplehipstercv.sty" 1727614841.77736 7602 33d8e1cbb66e831aa1a5c8e3acebd6cd ""
   "w.png" 1727917363.3483 144 75db99b125fe4e9afbe58696320bea73 ""
