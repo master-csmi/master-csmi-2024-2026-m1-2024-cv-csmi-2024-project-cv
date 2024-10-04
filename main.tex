@@ -1,202 +1,103 @@
-% a mashup of hipstercv, friggeri and twenty cv
-% https://www.latextemplates.com/template/twenty-seconds-resumecv
-% https://www.latextemplates.com/template/friggeri-resume-cv
-
-\documentclass[lighthipster]{simplehipstercv}
-% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
-% withoutsidebar
+\documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
-\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{graphicx}
 
+% Marges du document
+\geometry{margin=1in}
 
-%------------------------------------------------------------------ Variablen
+% Format des sections
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries}{}{0em}{}
 
-\newlength{\rightcolwidth}
-\newlength{\leftcolwidth}
-\setlength{\leftcolwidth}{0.23\textwidth}
-\setlength{\rightcolwidth}{0.75\textwidth}
-
-%------------------------------------------------------------------
-\title{New Simple CV}
-\author{\LaTeX{} Ninja}
-\date{June 2019}
-
-\pagestyle{empty}
 \begin{document}
 
-
-\thispagestyle{empty}
-%-------------------------------------------------------------
-
-\section*{Start}
-
-\simpleheader{headercolour}{Jack}{Sparrow}{Captain}{white}
-
-
-
-%------------------------------------------------
-
-% this has to be here so the paracols starts..
-\subsection*{}
-\vspace{4em}
-
-\setlength{\columnsep}{1.5cm}
-\columnratio{0.23}[0.75]
-\begin{paracol}{2}
-\hbadness5000
-%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
-
-\paracolbackgroundoptions
-
-% 0.9,0.9,0.9 -- 0.8,0.8,0.8
-
-
-\footnotesize
-{\setasidefontcolour
-\flushright
+% Tête du CV
 \begin{center}
-    \roundpic{jack.jpg}
+    \Huge{\textbf{Narimane Zaouache}} \\
+    \large{Étudiant en M1 Calcul Scientifique et Mathématiques de l'Information} \\
+    \vspace{0.2em}
+    \includegraphics[width=4cm, height=4cm]{profile_image.jpg} % Assurez-vous que le fichier image est téléchargé
 \end{center}
 
-\bg{cvgreen}{white}{About me}\\[0.5em]
-
-{\footnotesize
-\lorem\lorem\lorem}
-\bigskip
-
-\bg{cvgreen}{white}{personal} \\[0.5em]
-Jack Sparrow
-
-nationality: English 
-
-1690
-
-\bigskip
-
-\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
-
-Privateering ~•~ Bucaneering ~•~ Parler ~•~ Rum
-
-\bigskip
-
-
-
-\bigskip
-
-\bg{cvgreen}{white}{Interests}\\[0.5em]
-
-\lorem
-\bigskip
-
-\bg{cvgreen}{white}{Interests}\\[0.5em]
-
-\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
-
-\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
-
-\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
-
-\vspace{4em}
-
-\infobubble{\faAt}{cvgreen}{white}{jack@sparrow.org}
-\infobubble{\faTwitter}{cvgreen}{white}{@sparrow}
-\infobubble{\faFacebook}{cvgreen}{white}{Jack Sparrow}
-\infobubble{\faGithub}{cvgreen}{white}{sparrow}
-
-\phantom{turn the page}
-
-\phantom{turn the page}
-}
-%-----------------------------------------------------------
-\switchcolumn
-
-\small
-\section*{Short Resumé}
-
-\begin{tabular}{r| p{0.5\textwidth} c}
-    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.\lorem\lorem\lorem}{disney.png} \\
-    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship. \lorem\lorem}{medal.jpeg}
+% Coordonnées
+\section*{Coordonnées}
+\begin{tabular}{rl}
+    \textbf{Adresse :} & 22 Rue de Bouxwiller, 67000, Strasbourg \\
+    \textbf{Téléphone :} & 0753339394 \\
+    \textbf{Email :} & narimanezaouache703@gmail.com \\
+    \textbf{Permis :} & Permis B \\
 \end{tabular}
-\vspace{3em}
 
-\begin{minipage}[t]{0.35\textwidth}
-\section*{Degrees}
-\begin{tabular}{r p{0.6\textwidth} c}
-    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
-    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
-    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
-\end{tabular}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Programming}
-\begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
-     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
-\end{tabular}
-\end{minipage}
+% Profil
+\section*{Profil}
+Étudiant en Master de Calcul Scientifique et Mathématiques de l'Information. Je suis créative, autonome et coopérative. Passionnée par les défis mathématiques et d'informatique, je suis capable de travailler de manière autonome en équipe pour contribuer à des projets novateurs.
 
-\section*{Curriculum}
-\begin{tabular}{r| p{0.5\textwidth} c}
-    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back. \lorem}{disney.png} \\
-    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?  \lorem}{medal.jpeg} \\
-\end{tabular}
-\vspace{3em}
+% Expérience
+\section*{Expérience}
+\subsection*{Gestionnaire, 01/2022 - 08/2023}
+\textbf{SNC BEN HAMLAT} transport des produits pétroliers et de gaz - Tizi Ouzou - CDI
+\begin{itemize}[leftmargin=*]
+    \item Rédaction précises des factures.
+    \item Gestion des stocks.
+    \item La programmation et le suivi d'entretien des engins.
+    \item Suivi méticuleux du personnel.
+    \item Traitement rapide et précis des plaintes d'assurance pour le personnel.
+    \item Préparation rigoureuse des dossiers.
+\end{itemize}
 
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Certificates \& Grants}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
-    1708 & Captain's Certificates \\
-    1710 & Travel grant \\
-    1715--1716 & Grant from the Pirate's Company
-\end{tabular}
-\bigskip
+\subsection*{Serveuse}
+\begin{itemize}[leftmargin=*]
+    \item Assurer que les besoins des clients soient pleinement satisfaits en fournissant un service rapide et courtois lors des événements.
+    \item Travailler en équipe avec les collègues pour assurer une expérience client optimale.
+\end{itemize}
 
-\section*{Languages}
-\begin{tabular}{l | ll}
-\textbf{English} & C2 & {\phantom{x}\footnotesize mother tongue} \\
-\textbf{French} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
-\textbf{Spanish} & C2 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
-\textbf{Italian} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny}
-\end{tabular}
-\bigskip
+% Formation
+\section*{Formation}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Master 1 :} Calcul scientifique et mathématiques de l'information, 2024/2025, Université de Strasbourg - Strasbourg.
+    \item \textbf{Master 2 :} Recherche Opérationnelle, 09/2020 - 07/2022, Université Mouloud Mammeri - Tizi Ouzou.
+    \item \textbf{Licence :} Mathématiques, 09/2016 - 07/2020, Université Mouloud Mammeri - Tizi Ouzou.
+    \item \textbf{Baccalauréat :} Science Expérimentale, 09/2014 - 07/2015, Direction de l'éducation-Draâ El Mizan - Tizi Ouzou - ASSEZ BIEN.
+\end{itemize}
 
-\end{minipage}\hfill
-\begin{minipage}[t]{0.3\textwidth}
-\section*{Publications}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
-    1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
-    1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
-\end{tabular}
-\bigskip
+% Compétences
+\section*{Compétences}
+\begin{itemize}[leftmargin=*]
+    \item Analyse et gestion des données : Excel, SQL, Python (y compris NumPy, Pandas, gestion de base de données), C++, C, Julia.
+    \item Outils de versement et collaboration : Git, GitHub.
+    \item Création de rapports et présentations : LaTeX, Word, PowerPoint.
+    \item Résolution des problèmes.
+    \item Analyse des données.
+\end{itemize}
 
-\section*{Talks}
-\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
-    Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
-\end{tabular}
-\end{minipage}
+% Centres d'intérêt
+\section*{Centres d'intérêt}
+\begin{itemize}[leftmargin=*]
+    \item Cinéma
+    \item Lecture
+    \item Sport
+    \item Réseaux sociaux
+\end{itemize}
 
+% Langues
+\section*{Langues}
+\begin{itemize}[leftmargin=*]
+    \item Arabe : Expérimenté (C2)
+    \item Français : Courant (C2)
+    \item Anglais : Intermédiaire
+    \item Kabyle : Langue maternelle
+\end{itemize}
 
-
-
-
-
-\vfill{} % Whitespace before final footer
-
-%----------------------------------------------------------------------------------------
-%	FINAL FOOTER
-%----------------------------------------------------------------------------------------
-\setlength{\parindent}{0pt}
-\begin{minipage}[t]{\rightcolwidth}
-\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\small Jack Sparrow \icon{\faEnvelopeO}{cvgreen}{} The Black Pearl \icon{\faMapMarker}{cvgreen}{} Tortuga \icon{\faPhone}{cvgreen}{} 0099/333 5647380 \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
-}
-\end{center}
-\end{minipage}
-
-\end{paracol}
+% Certifications
+\section*{Certifications}
+\begin{itemize}[leftmargin=*]
+    \item Attestation en Maintenance Informatique et Installation Réseaux - 2019
+    \item Attestation The 21st Century Skills Training - 2022
+\end{itemize}
 
 \end{document}
