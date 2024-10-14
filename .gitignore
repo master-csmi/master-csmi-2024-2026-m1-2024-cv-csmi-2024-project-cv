@@ -1,0 +1,6 @@
+*.log
+*.fls
+main.pdf
+*.aux
+*.fdb_latexmk
+*.sunctex.gz
