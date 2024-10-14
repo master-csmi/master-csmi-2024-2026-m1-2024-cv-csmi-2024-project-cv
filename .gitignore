@@ -3,4 +3,9 @@
 main.pdf
 *.aux
 *.fdb_latexmk
-*.sunctex.gz
+*.synctex.gz
+main.aux
+main.fdb_latexmk
+main.fls
+main.log
+main.pdf
