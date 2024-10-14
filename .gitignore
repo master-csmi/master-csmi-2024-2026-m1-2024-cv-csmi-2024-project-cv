@@ -1,5 +1,7 @@
 *.out
 *.gz
-*.cls
 *.fls
 *.aux
+main.pdf
+main.fdb*
+*.log
