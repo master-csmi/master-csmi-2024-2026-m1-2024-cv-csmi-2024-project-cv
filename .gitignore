@@ -1,0 +1,12 @@
+*.log
+*.fls
+main.pdf
+*.aux
+*.fdb_latexmk
+*.synctex.gz
+main.aux
+main.fdb_latexmk
+main.fls
+main.log
+main.pdf
+main.synctex.gz
