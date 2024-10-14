@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1728909011.51449 "/workspaces/m1-2024-cv-Hanna-che/m1-2024-cv-Hanna-che/main.tex" "main.pdf" "main" 1728909012.27685 0
+["pdflatex"] 1728911395.66736 "/workspaces/m1-2024-cv-Hanna-che/m1-2024-cv-Hanna-che/main.tex" "main.pdf" "main" 1728911396.41296 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -216,11 +216,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1727588394 5477429 32a2a3a09e7e10c5f90c819db1b0ec36 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727588482 3325968 1f59dab4160edcf8a7f91cc09891f231 ""
   "/usr/local/texlive/2024/texmf.cnf" 1727588390 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "/workspaces/m1-2024-cv-Hanna-che/m1-2024-cv-Hanna-che/main.tex" 1728909009.50913 6094 08ebc20576b4020684f7ba42501ed028 ""
-  "jack.jpg" 1728908916.28913 203784 2738576fd541d648ba9772042bc98def ""
-  "main.aux" 1728909012.18113 205 e0f3f30905e323e3dbd0313132f84219 "pdflatex"
-  "main.out" 1728909012.04513 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1728909009.50913 6094 08ebc20576b4020684f7ba42501ed028 ""
+  "/workspaces/m1-2024-cv-Hanna-che/m1-2024-cv-Hanna-che/main.tex" 1728911395.33711 6537 9fc2960768a823bde5a6718297019fa7 ""
+  "jack.jpg" 1728911061.36511 100089 ea93a2aa8fd4e3a58d172dab71efae2f ""
+  "main.aux" 1728911396.31711 205 e0f3f30905e323e3dbd0313132f84219 "pdflatex"
+  "main.out" 1728911396.18111 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1728911395.33711 6537 9fc2960768a823bde5a6718297019fa7 ""
   "simplehipstercv.cls" 1728908916.28913 10757 c85c243d06d400a6ac177620d621773b ""
   "simplehipstercv.sty" 1728908916.28913 7602 33d8e1cbb66e831aa1a5c8e3acebd6cd ""
   (generated)
